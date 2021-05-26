@@ -1,0 +1,298 @@
+<!-- This code is fully responsive and a little bit og javascript is used to show and hide popup of login and registration. please click on similar button to check working.
+this code might not seem perfect as because of less time duration. 
+Name - Praveen Yadav
+email - yadavpraveen1023@gmail.com
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!----------------------- header section---------------------------- -->
+        <header id="header">
+            <div class="header__logo">
+                <img src="header__logo.png" alt="">
+            </div>
+            <ul class="header__nav">
+                <a href="#" class="header__hotel--name">Hotels</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </ul>
+            <div class="headr__signIn">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="register">Register</a>
+            </div>
+        </header>
+        <!----------------------- select and search section---------------------------- -->
+
+        <section id="select">
+            <div class="select__left-container">
+                <div class="select__left-container__state">
+                    <select name="slct" id="slct">
+                        <option>State</option>
+                        <option value="1">Rajasthan</option>
+                        <option value="2">Tamil Nadu </option>
+                        <option value="3">Madhya Pradesh </option>
+                        <option value="4">Delhi</option>
+                        <option value="5">Uttar Pradesh</option>
+                    </select>
+                </div>
+                <div class="select__left-container__date">
+                    <select name="slct" id="slct">
+                        <option>Available Date</option>
+                        <option value="1">DATE 1</option>
+                        <option value="2">DATE 2</option>
+                        <option value="3">DATE 3</option>
+                        <option value="4">DATE 4</option>
+                        <option value="5">DATE 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="right-container__side">
+                <input type="text" placeholder="Search"><i class="fas fa-search"></i>
+            </div>
+        </section>
+        <!----------------------- Booking section---------------------------- -->
+        <section id="booking">
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+            <div class="card booking__card-1">
+                <div class="booking__card--upperside__content">
+                    <div class="booking__card--upperside__text-content">
+                        <h1 class="booking__card--upperside__hotelname">Hotel Name</h1>
+                        <h2 class="booking__card--location">Location</h2>
+                    </div>
+                    <img src="hotel_logo_img.png" alt="hotel__logo">
+                </div>
+                <div class="booking__card--lowerside__content">
+                    <h2 class="booking__card--lowerside__availablity">Available Date</h2>
+                    <h2 class="booking__card--lowerside__price">Start @ ₹2500 /-</h2>
+                </div>
+                <button class="booking__card--btn">BOOK NOW <i class="far fa-arrow-alt-circle-right"></i></button>
+            </div>
+
+        </section>
+        <!----------------------- Login section---------------------------- -->
+        <section id="Customerlogin">
+            <form class="Customer__login--form">
+                <i class="far fa-times-circle"></i>
+                <div class="Customer__login--form__title">
+                    <h2 class="customer__login--title__customer">CUSTOMER LOGIN</h2>
+                    <h2 class="customer__login--title__hotel">HOTEL LOGIN</h2>
+                </div>
+                <label for="customer__login--username">User ID / Email</label>
+                <input type="text" class="customer__login--username">
+                <label for="customer__login--password">Password</label>
+                <input type="password" class="customer__login--password">
+                <a href="" class="customer__login--forget__password">Forget Password?</a>
+                <input class="customer__login-btn " type="submit" value="LOGIN" class="customer__login--submit__btn">
+                <div class="customer__login--dont__have--account">
+                    <h3>Don't have an account yet? Register Now(<a href="#">Customer</a>
+                        / <a href="#">Hotel</a>)</h3>
+                </div>
+            </form>
+        </section>
+        <!----------------------- Registraion section---------------------------- -->
+        <section id="Customerregistration">
+            <form class="Customer__registration--form">
+                <i class="far fa-times-circle closei"></i>
+                <div class="Customer__reistration--form__title">
+                    <h2 class="customer__registration--title__customer">CUSTOMER REGISTRATION</h2>
+                    <h2 class="customer__registration--title__hotel">HOTEL REGISTRATION</h2>
+                </div>
+                <div class="Customer__registration--form__names">
+                    <div class="labelflexone">
+                        <label for="customer__registration--firstname">First Name</label>
+                        <input type="text" class="customer__register--firstname">
+                    </div>
+                    <div class="labelflexone">
+                        <label for="customer__registration--lastname">Last Name</label>
+                        <input type="text" class="customer__registration--lastname">
+                    </div>
+                </div>
+                <label for="customer__registration--username">Email Address</label>
+                <input type="text" class="customer__registration--username">
+                <label for="customer__registration--password">Password</label>
+                <input type="password" class="customer__registration--password">
+                <a href="" class="customer__login--forget__password">Forget Password?</a>
+                <input class="customer__register-btn " type="submit" value="Register"
+                    class="customer__register--submit__btn">
+                <div class="customer__login--already__have--account">
+                    <h3>Already a member? Login here(<a href="#">Customer</a>
+                        / <a href="#">Hotel</a>)</h3>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
